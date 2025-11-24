@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: James Boswell Postdoctoral Scholar @ Caltech
+role: James Boswell Postdoctoral Scholar
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
