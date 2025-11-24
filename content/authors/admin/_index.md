@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Ernesto Criado Hidalgo
+title: Ernesto Criado-Hidalgo
 
 # Name pronunciation (optional)
 name_pronunciation: ''
@@ -23,29 +23,29 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: James Boswell Postdoctoral Scholar @ Caltech
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: California Institute of Technology
+    url: https://caltech.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:ernestocriado@gmail.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
+    url: https://x.com/ECriadoHidalgo
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/ernestocriado
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
+    url: https://www.linkedin.com/in/ernesto-criado-hidalgo/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
+    url: https://scholar.google.com/citations?hl=en&user=8Qtoph8AAAAJ&view_op=list_works&sortby=pubdate)
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0000-0001-9086-9129
 
 interests:
   - Large Language Models
