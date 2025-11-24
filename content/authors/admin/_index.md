@@ -6,8 +6,8 @@ title: Alex Johnson
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Ernesto
+last_name: Criado-Hidalgo
 
 # Pronouns (optional)
 pronouns: he/him
