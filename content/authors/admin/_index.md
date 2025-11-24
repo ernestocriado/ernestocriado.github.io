@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Ernesto Criado-Hidalgo
+title: Ernesto Criado Hidalgo
 
 # Name pronunciation (optional)
 name_pronunciation: ''
