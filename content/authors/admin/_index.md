@@ -169,4 +169,10 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+An aerospace engineer by training, I thrive at the intersection of engineering and medicine, creating solutions that advance healthcare technology.
+
+🔥 Passionate about mechanobiology, ultrasound systems, wearables, and medical devices, I specialize in developing experimental and computational platforms that blend biology, physics, and medicine to drive innovation in diagnostics and neurotechnology.
+
+🛠️ I design and lead multidisciplinary projects—transforming cutting-edge science into practical tools and devices with real-world impact.
+
+🧠 Currently exploring: biomolecular ultrasound, neural stimulation, ultrasound imaging, and sonogenetics—pushing the boundaries of non-invasive interfacing with the brain and body.
