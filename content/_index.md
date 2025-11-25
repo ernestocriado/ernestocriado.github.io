@@ -6,7 +6,7 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: '3rem'
+  spacing: '6rem'
 
 sections:
   - block: resume-biography-3
@@ -18,9 +18,9 @@ sections:
       button:
         text: Download CV
         url: uploads/CV_ECH_20251117.pdf
-      button:
-        text: Download resume
-        url: uploads/Resume_ECH_20251117.pdf
+      #button:
+       # text: Download resume
+        #url: uploads/Resume_ECH_20251117.pdf
       headings:
         about: ''
         education: ''
