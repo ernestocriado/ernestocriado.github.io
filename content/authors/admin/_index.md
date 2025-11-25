@@ -54,18 +54,18 @@ interests:
   - AI Ethics
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
+  - area: PhD Mechanical and Aerospace Engineering (with intensification in Multi-Scale Biology)
+    institution: University of California, San Diego
     icon: ""
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+    date_start: 2014-09-30
+    date_end: 2020-01-27
     summary: |
       Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
     button:
       text: 'Read Thesis'
       url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
+  - area: MS Mechanical and Aerospace Engineering
+    institution: University of California, San Diego
     icon: ""
     date_start: 2013-09-01
     date_end: 2015-05-31
@@ -73,8 +73,8 @@ education:
       GPA: 4.0/4.0
 
       Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
+  - area: BS/MS Aerospace Engineering
+    institution: Universidad Politecnica de Madrid (Spain)
     icon: ""
     date_start: 2009-09-01
     date_end: 2013-05-31
