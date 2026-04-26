@@ -29,7 +29,7 @@ sections:
       # Apply a gradient background
       css_class: hbx-bg-gradient
       spacing:
-        padding: ['2rem', '0', '6rem', '0']
+        padding: ['0.5rem', '0', '6rem', '0']
       # Avatar customization
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
