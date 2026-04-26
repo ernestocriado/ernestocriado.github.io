@@ -1,0 +1,12 @@
+.research-wide .max-w-prose {
+  max-width: 72rem;
+}
+
+.research-wide .prose {
+  max-width: none;
+  width: 100%;
+}
+
+.research-wide .prose table {
+  width: 100%;
+}

@@ -17,6 +17,7 @@ sections:
         Across these directions, I aim to connect mechanistic understanding with translational tools: systems that are rigorous enough for scientific discovery and practical enough to matter in diagnostics, imaging, and neurotechnology.
     design:
       columns: '1'
+      css_class: research-wide
   - block: markdown
     content:
       title: Biomolecular Ultrasound
@@ -29,6 +30,7 @@ sections:
         | ![Biomolecular ultrasound concept](/media/research/biomolecular-ultrasound-1.svg) | ![Biomolecular ultrasound systems placeholder](/media/research/biomolecular-ultrasound-2.svg) |
     design:
       columns: '1'
+      css_class: research-wide
   - block: markdown
     content:
       title: Neural Stimulation and Sonogenetics
@@ -41,6 +43,7 @@ sections:
         | ![Neural stimulation placeholder](/media/research/neural-stimulation-1.svg) | ![Sonogenetics placeholder](/media/research/neural-stimulation-2.svg) |
     design:
       columns: '1'
+      css_class: research-wide
   - block: markdown
     content:
       title: Ultrasound Imaging, Mechanobiology, and Translational Devices
@@ -51,4 +54,5 @@ sections:
         ![Ultrasound imaging and translational devices placeholder](/media/research/translational-devices-1.svg)
     design:
       columns: '1'
+      css_class: research-wide
 ---
