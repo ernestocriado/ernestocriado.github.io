@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Sonogenetics placeholder figure</title>
+  <desc id="desc">Placeholder research figure for sonogenetics.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#14532d" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="36" fill="url(#bg)" />
+  <rect x="86" y="90" width="1028" height="540" rx="28" fill="none" stroke="#4ade80" stroke-width="3" opacity="0.55" />
+  <path d="M176 490 C266 400, 334 580, 438 490 S626 396, 720 486 S912 568, 1020 470" fill="none" stroke="#86efac" stroke-width="10" opacity="0.9" />
+  <text x="120" y="188" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">Sonogenetics</text>
+  <text x="120" y="270" fill="#dcfce7" font-family="Arial, Helvetica, sans-serif" font-size="28">Representative figure placeholder</text>
+  <text x="120" y="324" fill="#dcfce7" font-family="Arial, Helvetica, sans-serif" font-size="28">Replace with genetic targeting schematics or functional readouts</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Neural stimulation placeholder figure</title>
+  <desc id="desc">Placeholder research figure for neural stimulation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1020" />
+      <stop offset="100%" stop-color="#312e81" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="36" fill="url(#bg)" />
+  <rect x="88" y="92" width="1024" height="536" rx="28" fill="none" stroke="#a78bfa" stroke-width="3" opacity="0.55" />
+  <circle cx="248" cy="498" r="90" fill="#a78bfa" opacity="0.18" />
+  <circle cx="362" cy="412" r="62" fill="#60a5fa" opacity="0.16" />
+  <circle cx="452" cy="530" r="48" fill="#34d399" opacity="0.15" />
+  <text x="120" y="188" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">Neural Stimulation</text>
+  <text x="120" y="270" fill="#ddd6fe" font-family="Arial, Helvetica, sans-serif" font-size="28">Representative figure placeholder</text>
+  <text x="120" y="324" fill="#ddd6fe" font-family="Arial, Helvetica, sans-serif" font-size="28">Replace with stimulation maps, targeting data, or modulation responses</text>
+</svg>
