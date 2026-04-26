@@ -169,7 +169,7 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-I build experimental and computational platforms at the intersection of engineering, biology, and medicine.
+An aerospace engineer by training, I build experimental and computational platforms at the intersection of engineering, biology, and medicine.
 
 My work focuses on ultrasound, mechanobiology, and neurotechnology, with an emphasis on tools that can image, stimulate, and measure living systems non-invasively.
 
