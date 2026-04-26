@@ -10,3 +10,15 @@
 .research-wide .prose table {
   width: 100%;
 }
+
+.blox-resume-biography-3 .hero-name {
+  line-height: 0.94;
+  text-wrap: balance;
+}
+
+.blox-resume-biography-3 .hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
