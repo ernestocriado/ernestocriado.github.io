@@ -169,10 +169,8 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-An aerospace engineer by training, I thrive at the intersection of engineering and medicine, creating solutions that advance healthcare technology.
+An aerospace engineer by training, I build experimental and computational platforms at the intersection of engineering, biology, and medicine.
 
-🔥 Passionate about mechanobiology, ultrasound systems, wearables, and medical devices, I specialize in developing experimental and computational platforms that blend biology, physics, and medicine to drive innovation in diagnostics and neurotechnology.
+My work focuses on ultrasound, mechanobiology, and neurotechnology, with an emphasis on tools that can image, stimulate, and measure living systems non-invasively.
 
-🛠️ I design and lead multidisciplinary projects—transforming cutting-edge science into practical tools and devices with real-world impact.
-
-🧠 Currently exploring: biomolecular ultrasound, neural stimulation, ultrasound imaging, and sonogenetics—pushing the boundaries of non-invasive interfacing with the brain and body.
+Current directions include biomolecular ultrasound, neural stimulation, ultrasound imaging, and sonogenetics, translating fundamental science into practical diagnostics and devices.
