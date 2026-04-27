@@ -154,7 +154,7 @@
         </div>
         {{ end }}
 
-        {{ with or $block.content.button $block.content.secondary_button }}
+        {{ with or $block.content.button (or $block.content.secondary_button $block.content.tertiary_button) }}
         <div class="hero-actions mb-16">
           {{ with $block.content.button }}
           <a href="{{ .url }}" target="_blank"
@@ -165,8 +165,15 @@
           {{ end }}
           {{ with $block.content.secondary_button }}
           <a href="{{ .url | relLangURL }}"
-             class="inline-flex items-center px-6 py-4 bg-white/10 hover:bg-white/15 text-gray-900 dark:text-white font-semibold text-lg rounded-xl shadow-md ring-1 ring-gray-300/60 dark:ring-white/20 backdrop-blur-sm transition-all duration-300 hover:-translate-y-0.5">
+             class="hero-secondary-button inline-flex items-center px-6 py-4 bg-white/10 hover:bg-white/15 text-gray-900 dark:text-white font-semibold text-lg rounded-xl shadow-md ring-1 ring-gray-300/60 dark:ring-white/20 transition-all duration-300 hover:-translate-y-0.5">
             {{ partial "functions/get_icon" (dict "name" "beaker" "attributes" "class='w-5 h-5 mr-3'") }}
+            {{ .text }}
+          </a>
+          {{ end }}
+          {{ with $block.content.tertiary_button }}
+          <a href="{{ .url | relLangURL }}"
+             class="hero-tertiary-button inline-flex items-center px-6 py-4 bg-emerald-500/12 hover:bg-emerald-500/18 text-emerald-900 dark:text-emerald-100 font-semibold text-lg rounded-xl shadow-sm ring-1 ring-emerald-600/25 dark:ring-emerald-400/25 transition-all duration-300 hover:-translate-y-0.5">
+            {{ partial "functions/get_icon" (dict "name" "academic-cap" "attributes" "class='w-5 h-5 mr-3'") }}
             {{ .text }}
           </a>
           {{ end }}

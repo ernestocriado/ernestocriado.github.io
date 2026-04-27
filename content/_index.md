@@ -22,12 +22,15 @@ sections:
        # text: Download resume
         #url: uploads/Resume_ECH_20251117.pdf
       headings:
-        about: Engineering medicine through ultrasound, mechanobiology, and neurotechnology
+        about: Translating engineering into non-invasive tools for biology and medicine
         education: ''
         interests: ''
       secondary_button:
         text: View Research
         url: /research/
+      tertiary_button:
+        text: Publications
+        url: /publications/
     design:
       # Apply a gradient background
       css_class: hbx-bg-gradient

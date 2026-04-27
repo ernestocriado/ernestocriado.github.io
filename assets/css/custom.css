@@ -22,3 +22,8 @@
   align-items: center;
   gap: 1rem;
 }
+
+.blox-resume-biography-3 .hero-actions .hero-secondary-button,
+.blox-resume-biography-3 .hero-actions .hero-tertiary-button {
+  backdrop-filter: blur(10px);
+}
