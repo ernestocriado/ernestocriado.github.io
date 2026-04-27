@@ -27,3 +27,23 @@
 .blox-resume-biography-3 .hero-actions .hero-tertiary-button {
   backdrop-filter: blur(10px);
 }
+
+.blox-resume-biography-3 .hero-copy {
+  max-width: 47rem;
+}
+
+.blox-resume-biography-3 .hero-headline {
+  max-width: 15ch;
+}
+
+.blox-resume-biography-3 .hero-bio {
+  max-width: 42rem;
+}
+
+.blox-resume-biography-3 .bio-text p {
+  margin: 0;
+}
+
+.blox-resume-biography-3 .bio-text p + p {
+  margin-top: 1.35rem;
+}
