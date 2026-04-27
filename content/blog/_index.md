@@ -7,23 +7,16 @@ design:
   spacing: '5rem'
 
 sections:
-  - block: collection
+  - block: markdown
     content:
       title: Blog
-      text: Notes, updates, and longer-form writing on research, tools, and projects.
-      page_type: blog
-      count: 0
-      filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
-      offset: 0
-      order: desc
+      subtitle: ''
+      text: |-
+        I plan to use this space for occasional writing on research, engineering in medicine, and the process of building experimental and computational tools.
+
+        Likely topics include ultrasound, mechanobiology, biomolecular imaging, neurotechnology, and lessons learned from multidisciplinary research.
+
+        The section is intentionally light for now while I prioritize the core research, publications, and experience pages.
     design:
-      view: article-grid
-      columns: 2
+      columns: '1'
 ---

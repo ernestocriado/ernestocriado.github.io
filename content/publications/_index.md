@@ -10,7 +10,7 @@ sections:
   - block: collection
     content:
       title: Featured Publications
-      text: A curated selection of representative publications across current research directions.
+      text: A curated selection of representative papers across ultrasound, mechanobiology, neurotechnology, and engineering in medicine.
       filters:
         folders:
           - publications
@@ -20,8 +20,8 @@ sections:
       columns: 2
   - block: collection
     content:
-      title: All Publications
-      text: ''
+      title: Selected Publications
+      text: This page highlights representative work from my CV. For a more complete and continuously updated list, please see my Google Scholar profile.
       filters:
         folders:
           - publications

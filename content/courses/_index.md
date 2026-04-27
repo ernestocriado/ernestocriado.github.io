@@ -1,5 +1,6 @@
 ---
 title: Courses
+draft: true
 summary: My courses
 type: landing
 
@@ -8,6 +9,7 @@ cascade:
       path: '{/courses/*/**}'
     type: docs
     params:
+      draft: true
       show_breadcrumb: true
 
 sections:

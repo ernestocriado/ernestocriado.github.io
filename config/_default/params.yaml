@@ -14,8 +14,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    description: 'Ernesto Criado-Hidalgo is a postdoctoral scholar at Caltech building non-invasive tools for biology and medicine through mechanobiology, biomolecular ultrasound, and neurotechnology.'
+    twitter: 'ECriadoHidalgo'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -40,9 +40,9 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Ernesto Criado-Hidalgo'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
