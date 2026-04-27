@@ -52,3 +52,21 @@
 .blox-resume-biography-3 .bio-text p + p {
   margin-top: 1.35rem;
 }
+
+.contact-section .max-w-prose {
+  max-width: 42rem;
+}
+
+.contact-section .prose {
+  text-align: center;
+}
+
+.contact-section .prose p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-section .prose a {
+  font-weight: 600;
+  text-decoration: none;
+}

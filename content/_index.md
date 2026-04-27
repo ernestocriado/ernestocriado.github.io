@@ -100,6 +100,26 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
+  - block: markdown
+    id: contact
+    content:
+      title: Contact
+      subtitle: ''
+      text: |-
+        Open to research conversations, collaborations, and opportunities at the intersection of engineering, biology, and medicine.
+
+        **Ernesto Criado-Hidalgo**  
+        James Boswell Postdoctoral Scholar  
+        California Institute of Technology  
+        391 S Holliston Ave  
+        MC 210-41 (Shapiro Lab)  
+        Pasadena, CA 91106
+
+        [ecriadoh@caltech.edu](mailto:ecriadoh@caltech.edu)  
+        [ernestocriado@gmail.com](mailto:ernestocriado@gmail.com)
+    design:
+      columns: '1'
+      css_class: contact-section
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
