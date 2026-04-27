@@ -29,15 +29,20 @@
 }
 
 .blox-resume-biography-3 .hero-copy {
-  max-width: 47rem;
+  max-width: 50rem;
 }
 
 .blox-resume-biography-3 .hero-headline {
-  max-width: 15ch;
+  max-width: none;
+  line-height: 1.08;
+}
+
+.blox-resume-biography-3 .hero-headline .block + .block {
+  margin-top: 0.15rem;
 }
 
 .blox-resume-biography-3 .hero-bio {
-  max-width: 42rem;
+  max-width: 44rem;
 }
 
 .blox-resume-biography-3 .bio-text p {

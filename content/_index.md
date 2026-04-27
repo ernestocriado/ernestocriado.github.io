@@ -22,7 +22,7 @@ sections:
        # text: Download resume
         #url: uploads/Resume_ECH_20251117.pdf
       headings:
-        about: Translating engineering into non-invasive tools for biology and medicine
+        about: <span class="block">Translating engineering into non-invasive tools</span><span class="block">for biology and medicine</span>
         education: ''
         interests: ''
       secondary_button:

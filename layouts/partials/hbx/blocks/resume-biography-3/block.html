@@ -144,7 +144,7 @@
             {{ $i18n_about := i18n "about_me" }}
             {{ $about_default := cond (eq $i18n_about "about_me") "Professional Summary" $i18n_about }}
             {{ $about_heading := $block.content.headings.about | default $about_default }}
-            <h2 class="hero-headline text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white tracking-tight">{{ $about_heading }}</h2>
+            <h2 class="hero-headline text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white tracking-tight">{{ $about_heading | safeHTML }}</h2>
           </div>
           <div class="hero-bio prose prose-lg dark:prose-invert text-gray-800 dark:text-gray-200 text-base sm:text-lg leading-relaxed">
             <div class="bio-text" {{ with $block.design.biography.style }}{{ (printf "style=\"%s\"" .) | safe.HTMLAttr }}{{end}}>
