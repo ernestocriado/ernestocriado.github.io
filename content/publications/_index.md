@@ -43,7 +43,7 @@ sections:
 
         [18] Liu A#, Farooq AS#, Abedi MH, **Criado-Hidalgo E**, Smith CAB, Wu D, Shapiro MG. Thermally Controlled State Switches for Engineered Macrophages. *ACS Synthetic Biology* 14 (11), 4304-4313 (2025). [article](https://pubs.acs.org/doi/full/10.1021/acssynbio.5c00395)
 
-        [17] García-de-Herreros A, Yeh Y, Tu Y, Kandasamy A, del Álamo JC, **Criado-Hidalgo E**. Tunable photoinitiated hydrogel microspheres for direct quantification of cell-generated forces in complex three-dimensional environments. *Acta Biomaterialia* 205 (2025). [article](https://www.sciencedirect.com/science/article/pii/S1742706125006348)
+        [17] García-de-Herreros A, Yeh Y, Tu Y, Kandasamy A, del Álamo JC, **Criado-Hidalgo E**. Tunable photoinitiated hydrogel microspheres for direct quantification of cell-generated forces in complex three-dimensional environments. *Acta Biomaterialia* 205 (2025). [article](https://doi.org/10.1016/j.actbio.2025.08.041)
 
         ### 2024
 
@@ -85,7 +85,7 @@ sections:
 
         ### 2012
 
-        [3] Martinez Lozano Sinues P, **Criado-Hidalgo E**, Vidal-de-Miguel G. Mechanistic study on the ionization of trace gases by an electrospray plume. *International Journal of Mass Spectrometry* 313, 21-29 (2012). [article](https://www.sciencedirect.com/science/article/pii/S1387380611004969)
+        [3] Martinez Lozano Sinues P, **Criado-Hidalgo E**, Vidal-de-Miguel G. Mechanistic study on the ionization of trace gases by an electrospray plume. *International Journal of Mass Spectrometry* 313, 21-29 (2012). [article](https://doi.org/10.1016/j.ijms.2011.12.010)
 
         [2] **Criado-Hidalgo E**, Roibás E, Tierno SP, Rodríguez De Francisco P, Domenech-Garret JL, Donoso JM, Conde L. Ion beam neutralization and properties of plasmas from low power ring cusp ion thrusters. *Physics of Plasmas* 19 (2), 023505 (2012). [article](https://pubs.aip.org/aip/pop/article/19/2/023505/282546)
 
