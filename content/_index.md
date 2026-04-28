@@ -100,6 +100,8 @@ sections:
 
         [ecriadoh@caltech.edu](mailto:ecriadoh@caltech.edu)  
         [ernestocriado@gmail.com](mailto:ernestocriado@gmail.com)
+
+        {{< profile-icons username="admin" >}}
     design:
       columns: '1'
       css_class: contact-section

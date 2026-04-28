@@ -71,6 +71,41 @@
   text-decoration: none;
 }
 
+.contact-section .contact-profile-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.contact-section .contact-profile-icon {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background: rgb(255 255 255 / 1);
+  color: rgb(75 85 99 / 1);
+  border: 1px solid rgb(229 231 235 / 1);
+  box-shadow: 0 4px 12px rgb(15 23 42 / 0.08);
+  text-decoration: none;
+  transition: transform 180ms ease, box-shadow 180ms ease, color 180ms ease,
+    background-color 180ms ease;
+}
+
+.contact-section .contact-profile-icon:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 10px 20px rgb(15 23 42 / 0.14);
+}
+
+.dark .contact-section .contact-profile-icon {
+  background: rgb(31 41 55 / 1);
+  color: rgb(156 163 175 / 1);
+  border-color: rgb(55 65 81 / 1);
+}
+
 .publication-archive .max-w-prose {
   max-width: 74rem;
 }

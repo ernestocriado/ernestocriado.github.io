@@ -1,0 +1,27 @@
+{{ $author := .Get "username" | default "admin" }}
+{{ $person_page_path := printf "/authors/%s" $author }}
+{{ $person_page := site.GetPage $person_page_path }}
+{{ if not $person_page }}
+  {{ errorf "Could not find author page at %q for profile-icons shortcode" $person_page_path }}
+{{ end }}
+{{ $person := $person_page.Params }}
+
+<div class="contact-profile-icons">
+  {{ range $person.profiles }}
+    {{ $link := .url | default .link }}
+    {{ $scheme := (urls.Parse $link).Scheme }}
+    {{ $target := "" }}
+    {{ if not $scheme }}
+      {{ $link = (.url | default .link) | relLangURL }}
+      {{ if eq (path.Ext $link) ".pdf" }}{{ $target = "target=\"_blank\" rel=\"noopener\"" }}{{ end }}
+    {{ else if in (slice "http" "https") $scheme }}
+      {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+    {{ end }}
+    <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}
+       aria-label="{{ .icon }}"
+       {{ with .label }} title="{{ . }}"{{ end }}
+       class="contact-profile-icon">
+      {{ partial "functions/get_icon" (dict "name" .icon "attributes" "class=\"w-6 h-6\"") }}
+    </a>
+  {{ end }}
+</div>
