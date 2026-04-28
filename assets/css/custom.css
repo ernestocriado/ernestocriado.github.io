@@ -70,3 +70,40 @@
   font-weight: 600;
   text-decoration: none;
 }
+
+.publication-archive .max-w-prose {
+  max-width: 74rem;
+}
+
+.publication-archive .prose {
+  max-width: none;
+  width: 100%;
+}
+
+.publication-archive .section-heading {
+  margin-bottom: 0.75rem;
+}
+
+.publication-archive .prose h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.7rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.publication-archive .prose p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.publication-archive .prose p:first-of-type {
+  margin-bottom: 1.4rem;
+  font-style: italic;
+}
+
+.publication-archive .prose a {
+  text-decoration: none;
+  font-weight: 600;
+}

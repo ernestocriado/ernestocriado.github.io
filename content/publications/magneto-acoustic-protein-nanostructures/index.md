@@ -28,7 +28,7 @@ tags:
   - Ultrasound
   - Molecular Imaging
   - Tissue Mechanics
-featured: true
+featured: false
 projects:
   - biomolecular-ultrasound
 ---
