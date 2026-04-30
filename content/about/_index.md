@@ -17,6 +17,7 @@ sections:
         Today, I work at the intersection of engineering, biology, and medicine, building experimental and computational tools that help us image, stimulate, and measure biological function in non-invasive ways.
     design:
       columns: '1'
+      css_class: about-narrative
   - block: markdown
     content:
       title: A Path Across Disciplines
@@ -27,6 +28,7 @@ sections:
         Looking back, the fields have changed, but the core motivation has stayed surprisingly consistent: I like building tools that make hard-to-measure phenomena more visible and more understandable.
     design:
       columns: '1'
+      css_class: about-narrative
   - block: markdown
     content:
       title: What Drives My Work
@@ -37,4 +39,5 @@ sections:
         I am also drawn to multidisciplinary environments, where ideas move between fields and where progress often comes from combining perspectives that do not usually sit next to each other. That is a big part of why engineering in medicine feels like the right home for my work.
     design:
       columns: '1'
+      css_class: about-narrative
 ---
