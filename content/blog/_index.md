@@ -24,6 +24,7 @@ sections:
       offset: 0
       order: desc
     design:
+      css_class: blog-landing
       view: article-grid
       columns: 2
 ---

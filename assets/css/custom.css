@@ -152,3 +152,14 @@
   max-width: none;
   width: 100%;
 }
+
+.blog-landing .container.max-w-\[500px\] {
+  max-width: 70rem;
+}
+
+.blog-landing .grid > :only-child {
+  grid-column: 1 / -1;
+  width: 100%;
+  max-width: 34rem;
+  justify-self: center;
+}
