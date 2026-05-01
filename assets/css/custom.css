@@ -144,6 +144,28 @@
   font-weight: 600;
 }
 
+.homepage-publications .max-w-prose {
+  max-width: 74rem;
+}
+
+.homepage-publications .prose {
+  max-width: none;
+  width: 100%;
+}
+
+.homepage-publications .prose p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.homepage-publications .prose p:first-of-type {
+  margin-bottom: 1.4rem;
+}
+
+.homepage-publications .prose a {
+  font-weight: 600;
+}
+
 .about-narrative .max-w-prose {
   max-width: 50rem;
 }

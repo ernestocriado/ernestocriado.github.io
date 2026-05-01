@@ -61,16 +61,25 @@ sections:
     design:
       view: article-grid
       columns: 2
-  - block: collection
+  - block: markdown
     content:
       title: Recent Publications
-      text: For a fuller list of publications and recent manuscripts, see my Google Scholar profile linked above.
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
+      subtitle: ''
+      text: |-
+        For a fuller list of publications and recent manuscripts, see my Google Scholar profile linked above.
+
+        [24] Han H, Ma X, Tang S, Zhao K, **Criado-Hidalgo E**, Truong HD, Yoo J, Fezzi C, Zhang J, Chen G, Hays C, Reyes Segura RJ, Jin Z, Liu A, Shapiro MG, Greer JR, Zhou Q, Gao W. Programmable multigas cancer therapy using ultrasound-propelled microrobots. *Nature Communications*. (In revision) [article](#)
+
+        [23] Luo K, Ma Y, Li HR, Li H, Swift MB, Dalleska NF, Farooq AS, **Criado-Hidalgo E**, Liu A, Shapiro MG, Elowitz MB. In vivo spatial coordination with synthetic paracrine signaling. Submitted to *Nature Chemical Biology*. [article](#)
+
+        [22] Lee J, Liu A, **Criado-Hidalgo E**, Ling B, You MY, Jin Z, Shapiro MG. Engineering monocytes as ultrasound reporter cells for cancer detection. In preparation. [article](#)
+
+        [21] Shivaei S, Cheung K, Yadav A, Hurvitz I, Lee S, Revilla J, Rabut C, **Criado-Hidalgo E**, Zhang R, Shapiro MG. Ultrasound imaging of in situ transcriptional activity in opaque tissue. *Nature Methods*. (In revision) [article](#)
+
+        [20] Vasallo R, Ling B, **Criado-Hidalgo E**, Robinson N, Schrunk E, Liu A, Daghlian G, Li HR, Swift MB, Mannar D, Malounda D, Lack N, Goldenberg L, Black PC, Cox ME, Salcudean SE, Shapiro MG. A modular method for rapidly prototyping targeted gas vesicle protein nanoparticles. *Bioconjugate Chemistry* 37 (2), 225-232 (2026). [article](https://pubs.acs.org/doi/full/10.1021/acs.bioconjchem.5c00387)
     design:
-      view: citation
+      columns: '1'
+      css_class: homepage-publications
   - block: markdown
     id: news
     content:
