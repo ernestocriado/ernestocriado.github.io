@@ -63,7 +63,7 @@ sections:
       columns: 2
   - block: collection
     content:
-      title: Selected Publications
+      title: Recent Publications
       text: For a fuller list of publications and recent manuscripts, see my Google Scholar profile linked above.
       filters:
         folders:
