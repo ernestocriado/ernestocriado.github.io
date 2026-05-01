@@ -37,4 +37,4 @@ In a nutshell:
 
 Huge thanks to my collaborators and mentors who helped bring this vision to reality!
 
-📄 Read the full paper here: https://lnkd.in/g2EqnnQB
+📄 Read the full paper here: https://doi.org/10.1016/j.actbio.2025.08.041
