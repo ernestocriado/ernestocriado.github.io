@@ -155,15 +155,22 @@
 
 .homepage-publications .prose p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 1.6rem;
+  font-size: 1.15rem;
+  line-height: 1.55;
 }
 
 .homepage-publications .prose p:first-of-type {
-  margin-bottom: 1.4rem;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.45;
 }
 
 .homepage-publications .prose a {
-  font-weight: 600;
+  font-weight: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.14em;
 }
 
 .about-narrative .max-w-prose {
