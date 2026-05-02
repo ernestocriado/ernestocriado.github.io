@@ -12,18 +12,18 @@ sections:
       title: Research
       subtitle: ''
       text: |-
-        My research focuses on building experimental and computational platforms at the intersection of engineering, biology, and medicine. I am especially interested in non-invasive modalities that can sense, perturb, and ultimately interface with living systems in more precise and scalable ways.
+        My research focuses on engineering non-invasive tools that can sense, perturb, and help interface with living systems. Across mechanobiology, biomolecular ultrasound, neurotechnology, and fluid mechanics, I am interested in platforms that connect rigorous measurement with practical biomedical impact.
 
-        Across these directions, I aim to connect mechanistic understanding with translational tools: systems that are rigorous enough for scientific discovery and practical enough to matter in diagnostics, imaging, and neurotechnology.
+        The throughline across these projects is engineering in medicine: using experimental and computational methods to make biological systems more measurable, controllable, and ultimately more accessible to diagnostics and therapy.
     design:
       columns: '1'
       css_class: research-wide
   - block: markdown
     content:
-      title: Biomolecular Ultrasound
+      title: Biomolecular Ultrasound & Acoustic Reporter Genes
       subtitle: ''
       text: |-
-        I am interested in how ultrasound can be used not only as an imaging modality, but also as a programmable way to probe biomolecular structure and function. This direction brings together acoustics, molecular design, and measurement systems to create new readouts and control strategies that are difficult to achieve with conventional approaches.
+        A major direction of my current work is developing ultrasound-responsive biomolecular systems for imaging and control. This includes acoustic reporter genes, gas-vesicle-based platforms, and other engineered systems that extend ultrasound beyond conventional imaging and toward molecularly specific readouts inside living tissue.
 
         | | |
         | --- | --- |
@@ -33,10 +33,10 @@ sections:
       css_class: research-wide
   - block: markdown
     content:
-      title: Neural Stimulation and Sonogenetics
+      title: Ultrasound Neuromodulation & Sonogenetics
       subtitle: ''
       text: |-
-        A major theme of my work is developing safer and more selective ways to interact with the nervous system. I am particularly interested in ultrasound-based neuromodulation and sonogenetic strategies that could enable targeted, non-invasive control of neural circuits with stronger spatial precision and better biological interpretability.
+        I am interested in developing safer and more selective ways to interact with the nervous system. My work in this area includes sonogenetic control of cellular function and ultrasound-based neuromodulation strategies aimed at enabling non-invasive, spatially targeted control of biological activity.
 
         | | |
         | --- | --- |
@@ -46,10 +46,21 @@ sections:
       css_class: research-wide
   - block: markdown
     content:
-      title: Ultrasound Imaging, Mechanobiology, and Translational Devices
+      title: Mechanobiology & Force Quantification
       subtitle: ''
       text: |-
-        I also work on experimental platforms that connect imaging, biomechanics, and device design. These efforts include ultrasound-based sensing and imaging, mechanobiology-informed measurements, and wearable or deployable systems that can move from benchtop concepts toward practical medical technologies.
+        During my doctoral work, I developed experimental and computational methodologies to directly quantify cell-generated forces and characterize collective behavior in dynamic tissues. This work combined mechanobiology, microscopy, cellular engineering, and custom hydrogel systems to better understand how cells sense and transmit mechanical information.
+
+        ![Ultrasound imaging and translational devices placeholder](/media/research/translational-devices-1.svg)
+    design:
+      columns: '1'
+      css_class: research-wide
+  - block: markdown
+    content:
+      title: Cerebrospinal Fluid Mechanics & Transport
+      subtitle: ''
+      text: |-
+        Another thread of my research examines the mechanics of cerebrospinal fluid flow in the spinal canal and its implications for transport and intrathecal drug delivery. This work integrates fluid mechanics, MRI-based measurements, and computational modeling to study how anatomy and pulsation shape transport in the central nervous system.
 
         ![Ultrasound imaging and translational devices placeholder](/media/research/translational-devices-1.svg)
     design:

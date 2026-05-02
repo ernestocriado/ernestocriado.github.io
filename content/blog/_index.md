@@ -10,7 +10,7 @@ sections:
   - block: collection
     content:
       title: Blog
-      text: Notes, updates, and longer-form writing on research, tools, and projects.
+      text: Notes and occasional writing on research, engineering in medicine, knowledge systems, and the tools that support multidisciplinary work.
       page_type: blog
       count: 0
       filters:
@@ -24,6 +24,7 @@ sections:
       offset: 0
       order: desc
     design:
+      css_class: blog-landing
       view: article-grid
       columns: 2
 ---

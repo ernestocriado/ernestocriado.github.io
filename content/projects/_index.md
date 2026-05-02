@@ -12,7 +12,7 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      text: Representative research and platform-building efforts spanning molecular ultrasound, mechanobiology, neurotechnology, and fluid mechanics.
       filters:
         folders:
           - projects
