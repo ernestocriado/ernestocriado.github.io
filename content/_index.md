@@ -18,9 +18,9 @@ sections:
       button:
         text: Download CV
         url: uploads/CV_ECH_20251117.pdf
-      #button:
-       # text: Download resume
-        #url: uploads/Resume_ECH_20251117.pdf
+      resume_button:
+        text: Download Resume
+        url: uploads/Resume_ECH_20260127.pdf
       headings:
         about: <span class="block">Translating engineering into non-invasive tools</span><span class="block">for biology and medicine</span>
         education: ''

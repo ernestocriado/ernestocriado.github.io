@@ -154,26 +154,33 @@
         </div>
         {{ end }}
 
-        {{ with or $block.content.button (or $block.content.secondary_button $block.content.tertiary_button) }}
+        {{ with or $block.content.button (or $block.content.resume_button (or $block.content.secondary_button $block.content.tertiary_button)) }}
         <div class="hero-actions mb-14">
           {{ with $block.content.button }}
           <a href="{{ .url }}" target="_blank"
-             class="inline-flex items-center px-8 py-4 bg-gradient-to-r from-primary-600 to-secondary-600 hover:from-primary-700 hover:to-secondary-700 text-white font-bold text-lg rounded-xl shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
+             class="hero-action-button inline-flex items-center px-8 py-4 bg-gradient-to-r from-primary-600 to-secondary-600 hover:from-primary-700 hover:to-secondary-700 text-white font-bold text-lg rounded-xl shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
             {{ partial "functions/get_icon" (dict "name" "document-arrow-down" "attributes" "class='w-5 h-5 mr-3'") }}
-            {{ .text }}
-          </a>
-          {{ end }}
-          {{ with $block.content.secondary_button }}
-          <a href="{{ .url | relLangURL }}"
-             class="hero-secondary-button inline-flex items-center px-6 py-4 bg-white/10 hover:bg-white/15 text-gray-900 dark:text-white font-semibold text-lg rounded-xl shadow-md ring-1 ring-gray-300/60 dark:ring-white/20 transition-all duration-300 hover:-translate-y-0.5">
-            {{ partial "functions/get_icon" (dict "name" "beaker" "attributes" "class='w-5 h-5 mr-3'") }}
             {{ .text }}
           </a>
           {{ end }}
           {{ with $block.content.tertiary_button }}
           <a href="{{ .url | relLangURL }}"
-             class="hero-tertiary-button inline-flex items-center px-6 py-4 bg-emerald-500/12 hover:bg-emerald-500/18 text-emerald-900 dark:text-emerald-100 font-semibold text-lg rounded-xl shadow-sm ring-1 ring-emerald-600/25 dark:ring-emerald-400/25 transition-all duration-300 hover:-translate-y-0.5">
+             class="hero-action-button hero-tertiary-button inline-flex items-center px-6 py-4 bg-emerald-500/12 hover:bg-emerald-500/18 text-emerald-900 dark:text-emerald-100 font-semibold text-lg rounded-xl shadow-sm ring-1 ring-emerald-600/25 dark:ring-emerald-400/25 transition-all duration-300 hover:-translate-y-0.5">
             {{ partial "functions/get_icon" (dict "name" "academic-cap" "attributes" "class='w-5 h-5 mr-3'") }}
+            {{ .text }}
+          </a>
+          {{ end }}
+          {{ with $block.content.secondary_button }}
+          <a href="{{ .url | relLangURL }}"
+             class="hero-action-button hero-secondary-button inline-flex items-center px-6 py-4 bg-white/10 hover:bg-white/15 text-gray-900 dark:text-white font-semibold text-lg rounded-xl shadow-md ring-1 ring-gray-300/60 dark:ring-white/20 transition-all duration-300 hover:-translate-y-0.5">
+            {{ partial "functions/get_icon" (dict "name" "beaker" "attributes" "class='w-5 h-5 mr-3'") }}
+            {{ .text }}
+          </a>
+          {{ end }}
+          {{ with $block.content.resume_button }}
+          <a href="{{ .url }}" target="_blank"
+             class="hero-action-button hero-resume-button inline-flex items-center px-6 py-4 bg-primary-500/12 hover:bg-primary-500/18 text-primary-900 dark:text-primary-100 font-semibold text-lg rounded-xl shadow-sm ring-1 ring-primary-600/25 dark:ring-primary-400/25 transition-all duration-300 hover:-translate-y-0.5">
+            {{ partial "functions/get_icon" (dict "name" "document-arrow-down" "attributes" "class='w-5 h-5 mr-3'") }}
             {{ .text }}
           </a>
           {{ end }}
