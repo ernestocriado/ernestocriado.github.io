@@ -1,11 +1,11 @@
 ---
 title: Thermally controlled state switches for engineered macrophages
 authors:
-  - Allison Liu
-  - A. S. Farooq
+  - Ann Liu
+  - Abdullah S. Farooq
   - Mohammad H. Abedi
   - admin
-  - Christopher A. B. Smith
+  - Cameron A. B. Smith
   - Di Wu
   - Mikhail G. Shapiro
 date: '2025-11-01T00:00:00Z'
@@ -19,6 +19,14 @@ tags:
   - Cell Engineering
   - Neurotechnology
 featured: true
+links:
+  - type: site
+    url: https://pubs.acs.org/doi/full/10.1021/acssynbio.5c00395
+    label: Link to Article
+image:
+  caption: ''
+  focal_point: center
+  preview_only: false
 projects:
   - sonogenetics-neural-interfaces
 ---

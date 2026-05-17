@@ -1,16 +1,16 @@
 ---
 title: Tunable photoinitiated hydrogel microspheres for direct quantification of cell-generated forces in complex three-dimensional environments
 authors:
-  - Ana Garcia-de-Herreros
-  - Yizhi Yeh
-  - Yash Tu
-  - Abhinaya Kandasamy
+  - Antoni Garcia-De-Herreros
+  - Yi-Ting Yeh
+  - Yunpeng Tu
+  - Adithan Kandasamy
   - Juan Carlos del Alamo
   - admin
 date: '2025-01-01T00:00:00Z'
 publication_types:
   - article-journal
-publication: '*Acta Biomaterialia* 205'
+publication: '*Acta Biomaterialia*, 205, 521-536'
 publication_short: '*Acta Biomater.*'
 summary: A hydrogel-microsphere platform for directly quantifying cell-generated forces in complex three-dimensional microenvironments.
 tags:
@@ -18,6 +18,10 @@ tags:
   - Biomaterials
   - Force Measurement
 featured: true
+links:
+  - type: site
+    url: https://doi.org/10.1016/j.actbio.2025.08.041
+    label: Link to Article
 projects:
   - mechanobiology-force-quantification
 ---
