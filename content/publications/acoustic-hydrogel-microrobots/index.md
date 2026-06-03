@@ -1,30 +1,30 @@
 ---
 title: Imaging-guided bioresorbable acoustic hydrogel microrobots
 authors:
-  - Hui Han
-  - Xiaonan Ma
-  - Weiran Deng
-  - Junlong Zhang
-  - Sha Tang
-  - O. S. Pak
+  - Hong Han
+  - Xiaotian Ma
+  - Weiting Deng
+  - Junhang Zhang
+  - Songsong Tang
+  - On Shun Pak
   - Lailai Zhu
   - admin
-  - Cong Gong
-  - Etgar Karshalev
-  - Jihun Yoo
-  - M. You
-  - Allison Liu
-  - Cheng Wang
-  - P. N. Patel
-  - Christopher L. Hays
-  - Hsin-Kai Shen
-  - P. J. Gunnarson
+  - Chen Gong
+  - Emil Karshalev
+  - Jounghyun Yoo
+  - Ming You
+  - Ann Liu
+  - Canran Wang
+  - Hao K Shen
+  - Payal N Patel
+  - Claire L Hays
+  - Peter J Gunnarson
   - Di Wu
-  - Li Li
-  - Yue Zhang
-  - John O. Dabiri
-  - Lihong V. Wang
-  - Mikhail G. Shapiro
+  - Lei Li
+  - Yang Zhang
+  - John O Dabiri
+  - Lihong V Wang
+  - Mikhail G Shapiro
   - Qifa Zhou
   - Julia R. Greer
   - Wei Gao
@@ -39,6 +39,10 @@ tags:
   - Microrobotics
   - Biomaterials
 featured: true
+links:
+  - type: site
+    url: https://www.science.org/doi/full/10.1126/scirobotics.adp3593
+    label: Link to Article
 projects:
   - biomolecular-ultrasound
 ---

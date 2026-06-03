@@ -84,9 +84,9 @@ work:
     date_start: 2020-07-01
     date_end: ''
     summary: |2-
-      Working across the Divisions of Chemistry and Chemical Engineering and Engineering and Applied Sciences in the Shapiro Lab.
-
       Research centers on sonogenetic control of cellular function, biomolecular ultrasound, acoustic reporter genes, and non-invasive tools that bridge engineering and medicine.
+
+      Advisor: Mikhail Shapiro
   - position: Graduate Student Researcher
     company_name: University of California, San Diego
     company_url: 'https://ucsd.edu/'
@@ -94,9 +94,9 @@ work:
     date_start: 2013-09-01
     date_end: 2020-06-30
     summary: |
-      Advised by Juan Carlos del Alamo and co-advised by Juan C. Lasheras.
-
       Developed experimental and computational methods to measure intercellular forces in migrating epithelial monolayers and studied cerebrospinal fluid dynamics, transport, and dispersion in the spinal canal.
+
+      Advisors: Juan Carlos del Alamo and Juan Lasheras
   - position: Visiting Assistant in Research
     company_name: Yale University
     company_url: 'https://www.yale.edu/'
@@ -107,8 +107,10 @@ work:
       Investigated the mass distribution and folding dynamics of industrial polymers and proteins using ion mobility-mass spectrometry.
 
       Developed experimental approaches to study polymer transitions, ionic liquid nanodrops, and ion evaporation kinetics with applications in propulsion, atmospheric capture, and molecular analysis.
+
+      Advisor: Juan Fernandez de la Mora
   - position: Research Engineer
-    company_name: MION Technologies
+    company_name: MION Technologies (formerly SEADM S.L.)
     company_url: 'https://miontechnologies.com/'
     icon: ''
     date_start: 2009-01-01

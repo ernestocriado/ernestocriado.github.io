@@ -1,20 +1,21 @@
 ---
 title: An implantable piezoelectric ultrasound stimulator (ImPULS) for deep brain activation
 authors:
-  - Ji Won Hou
-  - Md. Osman
-  - Kevin A. Caplan
-  - Erin A. Ruesch
-  - Alyssa Caban
+  - Jason F. Hou
+  - Md Osman Goni Nayeem
+  - Kian A. Caplan
+  - Evan A. Ruesch
+  - Albit Caban-Murillo
   - admin
-  - Sandra D. Ornellas
-  - Benjamin Williams
-  - Amanda A. Pearce
-  - H. E. Dagdeviren
-  - James White
+  - Sarah B. Ornellas
+  - Brandon Williams
+  - Ayeilla A. Pearce
+  - Huseyin E. Dagdeviren
+  - Michelle Surets
+  - John A. White
   - Mikhail G. Shapiro
-  - Fei Wang
-  - Sheena Ramirez
+  - Fan Wang
+  - Steve Ramirez
   - Canan Dagdeviren
 date: '2024-06-01T00:00:00Z'
 publication_types:
@@ -27,6 +28,10 @@ tags:
   - Ultrasound
   - Biomedical Devices
 featured: true
+links:
+  - type: site
+    url: https://www.nature.com/articles/s41467-024-48748-6
+    label: Link to Article
 projects:
   - sonogenetics-neural-interfaces
 ---
