@@ -190,6 +190,12 @@
   width: 100%;
 }
 
+@media (min-width: 1280px) {
+  .page-wrapper:has(.hb-sidebar-custom-link[href^="/blog/"]) .page-body > .mx-auto.flex.max-w-screen-xl {
+    max-width: 84.5rem;
+  }
+}
+
 .page-wrapper:has(.hb-sidebar-custom-link[href^="/blog/"]) article > main {
   max-width: 86rem;
   padding-left: 1rem;
