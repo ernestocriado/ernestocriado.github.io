@@ -190,6 +190,11 @@
   width: 100%;
 }
 
+.page-wrapper:has(link[rel="canonical"][href*="/blog/"]) article > main > .prose.prose-slate:not(.container) {
+  max-width: 56rem;
+  width: 100%;
+}
+
 .blog-landing .container.max-w-\[500px\] {
   max-width: 70rem;
 }
