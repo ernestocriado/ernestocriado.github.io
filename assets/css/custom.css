@@ -190,8 +190,21 @@
   width: 100%;
 }
 
+.page-wrapper:has(link[rel="canonical"][href*="/blog/"]) article > main {
+  max-width: 74rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  .page-wrapper:has(link[rel="canonical"][href*="/blog/"]) article > main {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
 .page-wrapper:has(link[rel="canonical"][href*="/blog/"]) article > main > .prose.prose-slate:not(.container) {
-  max-width: 56rem;
+  max-width: 60rem;
   width: 100%;
 }
 
