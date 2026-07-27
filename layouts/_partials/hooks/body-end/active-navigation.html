@@ -1,0 +1,35 @@
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const links = document.querySelectorAll("#nav-menu .nav-link");
+
+    function normalizePath(path) {
+      return path === "/" ? path : path.replace(/\/+$/, "") + "/";
+    }
+
+    function updateActiveNavigation() {
+      const currentPath = normalizePath(window.location.pathname);
+
+      links.forEach(function (link) {
+        const url = new URL(link.href, window.location.origin);
+        const linkPath = normalizePath(url.pathname);
+        const exactMatch = !url.hash && currentPath === linkPath;
+        const sectionMatch = !url.hash && linkPath !== "/" && currentPath.startsWith(linkPath);
+        const hashMatch =
+          Boolean(url.hash) &&
+          currentPath === linkPath &&
+          window.location.hash === url.hash;
+        const isActive = exactMatch || sectionMatch || hashMatch;
+
+        link.classList.toggle("active", isActive);
+        if (isActive) {
+          link.setAttribute("aria-current", url.hash ? "location" : "page");
+        } else {
+          link.removeAttribute("aria-current");
+        }
+      });
+    }
+
+    updateActiveNavigation();
+    window.addEventListener("hashchange", updateActiveNavigation);
+  });
+</script>

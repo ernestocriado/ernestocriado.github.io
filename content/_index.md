@@ -79,9 +79,7 @@ sections:
 
         Lee J, Liu A, **Criado-Hidalgo E**, Ling B, You MY, Jin Z, Shapiro MG (2026). Engineering monocytes as ultrasound reporter cells for cancer detection. In preparation.
 
-        Shivaei S, Cheung K, Yadav A, Hurvitz I, Lee S, Revilla J, Rabut C, **Criado-Hidalgo E**, Zhang R, Shapiro MG (2026). [Ultrasound imaging of in situ transcriptional activity in opaque tissue](https://doi.org/10.1101/2025.07.06.663365). *Nature Methods*. In revision.
-
-        Vasallo R, Ling B, **Criado-Hidalgo E**, Robinson N, Schrunk E, Liu A, Daghlian G, Li HR, Swift MB, Mannar D, Malounda D, Lack N, Goldenberg L, Black PC, Cox ME, Salcudean SE, Shapiro MG (2026). [A modular method for rapidly prototyping targeted gas vesicle protein nanoparticles](https://pubs.acs.org/doi/full/10.1021/acs.bioconjchem.5c00387). *Bioconjugate Chemistry* 37 (2), 225-232.
+        [View all publications](/publications/)
     design:
       columns: '1'
       css_class: homepage-publications
