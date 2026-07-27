@@ -1,0 +1,23 @@
+{{/* Collection wrapper that replaces the visual title with a semantic heading. */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $heading_level := $block.design.heading_level | default 2 }}
+
+{{ if $block.content.title }}
+  <div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6 md:px-0">
+    {{ if eq $heading_level 1 }}
+      <h1 class="section-heading mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+        {{ $block.content.title | emojify | $page.RenderString }}
+      </h1>
+    {{ else }}
+      <h2 class="section-heading mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+        {{ $block.content.title | emojify | $page.RenderString }}
+      </h2>
+    {{ end }}
+    {{ with $block.content.text }}<p>{{ . | emojify | $page.RenderString }}</p>{{ end }}
+  </div>
+{{ end }}
+
+{{ $content := merge $block.content (dict "title" "" "text" "") }}
+{{ $clean_block := merge $block (dict "content" $content) }}
+{{ partial "hbx/blocks/collection/block.html" (dict "wcPage" $page "wcBlock" $clean_block) }}

@@ -1,7 +1,7 @@
 name: Deploy website to GitHub Pages
 
 env:
-  WC_HUGO_VERSION: '0.152.2'
+  WC_HUGO_VERSION: '0.160.1'
   NODE_VERSION: '20'
 
 on:
@@ -86,14 +86,10 @@ jobs:
         HUGO_ENVIRONMENT: production
       run: |
         echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
-        hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        hugo --minify --cleanDestinationDir --baseURL "${{ steps.pages.outputs.base_url }}/"
 
-    - name: Generate Pagefind search index (if applicable)
-      run: |
-        # Check if site uses Pagefind search
-        if [ -f "package.json" ] && grep -q "pagefind" package.json; then
-          pnpm dlx pagefind --source "public" || npx pagefind --source "public"
-        fi
+    - name: Generate Pagefind search index
+      run: pnpm exec pagefind --site "public"
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v4

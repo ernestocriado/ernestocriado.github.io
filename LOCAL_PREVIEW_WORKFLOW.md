@@ -10,11 +10,7 @@ This repo is a Hugo + Hugo Blox site.
 - feature branches are where changes should be made and reviewed first
 - local preview is the primary way to inspect branch changes before merging to `main`
 
-At the time of writing, the active working branch is:
-
-```bash
-codex-content-refresh
-```
+Use `git branch --show-current` whenever you need to confirm the active working branch.
 
 ## What is required
 
@@ -148,6 +144,15 @@ Notes:
 - Hugo usually reloads automatically after file saves
 - if the browser looks stale, refresh once manually
 - stop the server with `Ctrl + C`
+- local live preview does not rebuild the full-text search index; use the production build command below when testing search
+
+## Test the production build and search
+
+```bash
+corepack pnpm run build
+```
+
+This creates the clean site in `public/` and generates its Pagefind search index.
 
 ## Normal branch workflow
 
@@ -247,7 +252,7 @@ git log --graph --oneline --decorate --all -n 20
 
 - GitHub Pages in this repo deploys from `main`, not from feature branches
 - local preview is the main way to inspect branch work before merge
-- Netlify is configured in `netlify.toml` for branch/deploy previews if needed
+- `netlify.toml` remains available for optional branch/deploy previews
 
 ## Troubleshooting
 

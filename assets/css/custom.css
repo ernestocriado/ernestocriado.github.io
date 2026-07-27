@@ -142,6 +142,11 @@
   margin-bottom: 1rem;
 }
 
+.publication-archive .prose p:not(:first-of-type) {
+  padding-left: 2.65rem;
+  text-indent: -2.65rem;
+}
+
 .publication-archive .prose p:first-of-type {
   margin-bottom: 1.4rem;
   font-style: italic;
@@ -188,6 +193,43 @@
 .about-narrative .prose {
   max-width: none;
   width: 100%;
+}
+
+.section-heading {
+  margin-top: 0;
+  color: inherit;
+}
+
+.section-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.featured-publications .aspect-\[16\/9\] {
+  background: rgb(244 244 245 / 1);
+}
+
+.dark .featured-publications .aspect-\[16\/9\] {
+  background: rgb(24 24 27 / 1);
+}
+
+.featured-publications .aspect-\[16\/9\] img {
+  object-fit: contain !important;
+  padding: 0.75rem;
+}
+
+@media (max-width: 640px) {
+  .publication-archive .prose p:not(:first-of-type) {
+    padding-left: 2.15rem;
+    text-indent: -2.15rem;
+  }
+
+  .publication-archive .prose {
+    font-size: 1rem;
+    line-height: 1.55;
+  }
 }
 
 @media (min-width: 1280px) {

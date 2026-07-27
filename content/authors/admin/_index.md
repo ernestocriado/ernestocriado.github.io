@@ -35,17 +35,22 @@ organizations:
 profiles:
   - icon: at-symbol
     url: 'mailto:ecriadoh@caltech.edu'
-    label: Caltech E-mail
+    label: Email Ernesto at Caltech
   - icon: brands/x
     url: https://x.com/ECriadoHidalgo
+    label: Follow Ernesto on X
   - icon: brands/github
     url: https://github.com/ernestocriado
+    label: View Ernesto's GitHub profile
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/ernesto-criado-hidalgo/
+    label: Connect with Ernesto on LinkedIn
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?hl=en&user=8Qtoph8AAAAJ&view_op=list_works&sortby=pubdate
+    label: View Ernesto's Google Scholar profile
   - icon: academicons/orcid
     url: https://orcid.org/0000-0001-9086-9129
+    label: View Ernesto's ORCID record
 
 interests:
   - Engineering in Medicine

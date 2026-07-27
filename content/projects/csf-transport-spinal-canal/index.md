@@ -8,11 +8,17 @@ tags:
   - Transport
 ---
 
-Another major research thread has examined cerebrospinal fluid dynamics in the spinal canal and their implications for transport in the central nervous system. This work combines fluid mechanics, subject-specific imaging, and computational modeling to study recirculation, dispersion, and pressure gradients in anatomically realistic settings.
+## Engineering question
 
-These studies aim to connect fundamental transport physics with clinically relevant questions such as intrathecal therapeutic delivery.
+How do anatomy and pulsatile motion shape cerebrospinal fluid transport and the dispersion of intrathecally delivered therapeutics?
 
-Related publications:
+## My contribution
+
+This work combines fluid mechanics, subject-specific MRI measurements, and computational modeling to study recirculation, dispersion, and pressure gradients in anatomically realistic spinal canals.
+
+The studies connect fundamental transport physics with clinically relevant questions surrounding intrathecal therapeutic delivery.
+
+## Related work
 
 - [Subject-specific evaluation of CSF bulk flow in the spinal canal](/publications/spinal-csf-flow-transport/)
 

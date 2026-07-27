@@ -2,6 +2,7 @@
 title: 'Experience'
 date: 2023-10-24
 type: landing
+summary: Ernesto Criado-Hidalgo's research experience, education, technical methods, honors, and languages.
 
 design:
   spacing: '5rem'
@@ -20,16 +21,16 @@ sections:
       is_education_first: false
   - block: resume-skills
     content:
-      title: Methods & Skills
+      title: '<h2 class="section-title">Methods & Skills</h2>'
       username: admin
     design:
       show_skill_percentage: false
   - block: resume-awards
     content:
-      title: Honors & Awards
+      title: '<h2 class="section-title">Honors & Awards</h2>'
       username: admin
   - block: resume-languages
     content:
-      title: Languages
+      title: '<h2 class="section-title">Languages</h2>'
       username: admin
 ---

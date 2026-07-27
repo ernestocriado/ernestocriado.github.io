@@ -2,12 +2,13 @@
 title: About
 date: 2026-04-28
 type: landing
+summary: A personal introduction to Ernesto Criado-Hidalgo's path from aerospace engineering to multidisciplinary research in biology and medicine.
 
 design:
   spacing: '5rem'
 
 sections:
-  - block: markdown
+  - block: semantic-markdown
     content:
       title: About
       subtitle: ''
@@ -18,7 +19,8 @@ sections:
     design:
       columns: '1'
       css_class: about-narrative
-  - block: markdown
+      heading_level: 1
+  - block: semantic-markdown
     content:
       title: A Path Across Disciplines
       subtitle: ''
@@ -29,7 +31,7 @@ sections:
     design:
       columns: '1'
       css_class: about-narrative
-  - block: markdown
+  - block: semantic-markdown
     content:
       title: What Drives My Work
       subtitle: ''

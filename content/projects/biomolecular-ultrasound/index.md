@@ -8,11 +8,15 @@ tags:
   - Synthetic Biology
 ---
 
-This project area centers on expanding ultrasound from a purely anatomical imaging tool into a platform for molecularly specific readouts. My work in this space includes biomolecular ultrasound, acoustic reporter genes, protein nanostructures, and engineered cellular systems that can be visualized or controlled non-invasively.
+## Engineering question
 
-Representative directions include ultrasound reporter cells for cancer detection, magneto-acoustic protein nanostructures for imaging tissue mechanics, and imaging-guided acoustic microrobots.
+How can ultrasound move beyond anatomical contrast and report molecular or cellular activity inside living tissue?
 
-Related publications:
+## My contribution
+
+My work in this area spans biomolecular ultrasound, acoustic reporter genes, protein nanostructures, and engineered cellular systems that can be visualized or controlled non-invasively. Representative directions include ultrasound reporter cells for cancer detection, magneto-acoustic protein nanostructures for imaging tissue mechanics, and the acoustic characterization of image-guided microrobots.
+
+## Related work
 
 - [Magneto-acoustic protein nanostructures for non-invasive imaging of tissue mechanics in vivo](/publications/magneto-acoustic-protein-nanostructures/)
 - [Imaging-guided bioresorbable acoustic hydrogel microrobots](/publications/acoustic-hydrogel-microrobots/)

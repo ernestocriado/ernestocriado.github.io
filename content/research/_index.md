@@ -2,12 +2,13 @@
 title: Research
 date: 2026-04-26
 type: landing
+summary: Research spanning biomolecular ultrasound, sonogenetics, mechanobiology, neurotechnology, and cerebrospinal fluid transport.
 
 design:
   spacing: '5rem'
 
 sections:
-  - block: markdown
+  - block: semantic-markdown
     content:
       title: Research
       subtitle: ''
@@ -18,7 +19,8 @@ sections:
     design:
       columns: '1'
       css_class: research-wide
-  - block: markdown
+      heading_level: 1
+  - block: semantic-markdown
     content:
       title: Biomolecular Ultrasound & Acoustic Reporter Genes
       subtitle: ''
@@ -31,7 +33,7 @@ sections:
     design:
       columns: '1'
       css_class: research-wide
-  - block: markdown
+  - block: semantic-markdown
     content:
       title: Ultrasound Neuromodulation & Sonogenetics
       subtitle: ''
@@ -44,7 +46,7 @@ sections:
     design:
       columns: '1'
       css_class: research-wide
-  - block: markdown
+  - block: semantic-markdown
     content:
       title: Mechanobiology & Force Quantification
       subtitle: ''
@@ -55,7 +57,7 @@ sections:
     design:
       columns: '1'
       css_class: research-wide
-  - block: markdown
+  - block: semantic-markdown
     content:
       title: Cerebrospinal Fluid Mechanics & Transport
       subtitle: ''

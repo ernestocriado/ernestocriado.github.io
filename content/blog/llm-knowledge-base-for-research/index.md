@@ -21,7 +21,9 @@ The idea is simple:
 
 **Raw information → structured wiki → continuously refined and queried with LLMs**
 
-{{< video src="shapiro-lab-kb-demo.mp4" controls="yes" >}}
+{{< video src="shapiro-lab-kb-demo.mp4" poster="featured.jpg" controls="yes" title="Silent demonstration of the Shapiro Lab LLM knowledge-base workflow" >}}
+
+*Silent screen recording showing the structured notes and connected knowledge graph used in the workflow described below.*
 
 ## What the system does
 
