@@ -18,7 +18,7 @@
       {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
     {{ end }}
     <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}
-       aria-label="{{ .icon }}"
+       aria-label="{{ .label | default .icon }}"
        {{ with .label }} title="{{ . }}"{{ end }}
        class="contact-profile-icon">
       {{ partial "functions/get_icon" (dict "name" .icon "attributes" "class=\"w-6 h-6\"") }}

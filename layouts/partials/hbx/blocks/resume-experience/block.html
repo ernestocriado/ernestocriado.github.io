@@ -21,7 +21,7 @@
 
 {{ if $person.work }}
 <div class="w-full">
-  <h3 class="mb-6 text-3xl font-bold text-gray-900 dark:text-white text-center">{{ i18n "experience" | default "Experience" }}</h3>
+  <h1 class="mb-6 text-3xl font-bold text-gray-900 dark:text-white text-center">{{ i18n "experience" | default "Experience" }}</h1>
   <ol class="relative w-full border-s border-gray-200 dark:border-gray-700">
     {{ range $idx, $key := $person.work }}
     <li class="mb-10 ms-6">
@@ -33,7 +33,11 @@
             {{end}}
         </span>
       <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">{{.position}}</h3>
-      <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">{{.company_name}}</span>
+      <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+        {{ with .company_url }}<a href="{{ . }}" target="_blank" rel="noopener" class="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">{{ end }}
+        {{ .company_name }}
+        {{ if .company_url }}</a>{{ end }}
+      </span>
       <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
         {{ if .date_start}}
           {{ (time .date_start) | time.Format ($block.design.date_format | default "January 2006") }} –
@@ -61,7 +65,7 @@
 
 {{ if $person.education }}
 <div class="w-full">
-  <h3 class="mb-6 text-3xl font-bold text-gray-900 dark:text-white text-center">{{ i18n "education" }}</h3>
+  <h2 class="mb-6 text-2xl font-bold text-gray-900 dark:text-white text-center">{{ i18n "education" }}</h2>
     <ol class="relative w-full border-s border-gray-200 dark:border-gray-700">
       {{ range $idx, $key := $person.education }}
       <li class="mb-10 ms-6">

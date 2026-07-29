@@ -11,17 +11,17 @@
     pnpm install --verbose
     
     echo "=== Running Hugo build ==="
-    hugo --gc --minify -b $URL --logLevel debug --printI18nWarnings --printPathWarnings
+    hugo --gc --minify --cleanDestinationDir -b $URL --logLevel debug --printI18nWarnings --printPathWarnings
     
     echo "=== Running Pagefind indexing ==="
-    pnpm dlx pagefind --source 'public' --verbose
+    pnpm exec pagefind --site 'public' --verbose
     
     echo "=== Build completed successfully ==="
   """
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.152.2"
+  HUGO_VERSION = "0.160.1"
   GO_VERSION = "1.21.5"
   NODE_VERSION = "22"
   HUGO_ENABLEGITINFO = "true"
@@ -39,8 +39,8 @@
     echo "=== Deploy Preview Build ==="
     echo "Deploy URL: $DEPLOY_PRIME_URL"
     pnpm install --verbose
-    hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL --logLevel debug --printI18nWarnings --printPathWarnings
-    pnpm dlx pagefind --source 'public' --verbose
+    hugo --gc --minify --cleanDestinationDir --buildFuture -b $DEPLOY_PRIME_URL --logLevel debug --printI18nWarnings --printPathWarnings
+    pnpm exec pagefind --site 'public' --verbose
   """
 
 [context.branch-deploy]
@@ -49,8 +49,8 @@
     echo "=== Branch Deploy Build ==="
     echo "Deploy URL: $DEPLOY_PRIME_URL"
     pnpm install --verbose
-    hugo --gc --minify -b $DEPLOY_PRIME_URL --logLevel debug --printI18nWarnings --printPathWarnings
-    pnpm dlx pagefind --source 'public' --verbose
+    hugo --gc --minify --cleanDestinationDir -b $DEPLOY_PRIME_URL --logLevel debug --printI18nWarnings --printPathWarnings
+    pnpm exec pagefind --site 'public' --verbose
   """
 
 [[plugins]]

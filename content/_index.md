@@ -1,14 +1,28 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ''
-date: 2022-10-24
+date: 2026-07-26
+lastmod: 2026-07-29
 type: landing
+summary: Ernesto Criado-Hidalgo builds non-invasive tools for imaging, stimulation, and measurement at the intersection of engineering, biology, and medicine.
+
+seo:
+  title: 'Ernesto Criado-Hidalgo | Engineering in Medicine'
 
 design:
   # Default section spacing
   spacing: '6rem'
 
 sections:
+  - block: semantic-markdown
+    content:
+      text: |-
+        Website content is currently being updated.
+    design:
+      columns: '1'
+      css_class: site-status-notice
+      spacing:
+        padding: ['0.65rem', '0', '0.65rem', '0']
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
@@ -17,10 +31,10 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/CV_ECH_20251117.pdf
+        url: uploads/cv.pdf
       resume_button:
         text: Download Resume
-        url: uploads/Resume_ECH_20260127.pdf
+        url: uploads/resume.pdf
       headings:
         about: <span class="block">Translating engineering into non-invasive tools</span><span class="block">for biology and medicine</span>
         education: ''
@@ -40,20 +54,27 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: markdown
+  - block: semantic-markdown
     content:
       title: Research
       subtitle: ''
       text: |-
         My research sits at the intersection of engineering, biology, and medicine, with a focus on non-invasive tools for imaging, stimulation, and measurement.
 
-        Current themes include biomolecular ultrasound, acoustic reporter genes, ultrasound neuromodulation, mechanobiology, and cerebrospinal fluid mechanics. The [Research](/research/) page provides a fuller overview of these directions.
+        Current themes include biomolecular ultrasound, acoustic reporter genes, ultrasound neuromodulation, mechanobiology, and cerebrospinal fluid mechanics.
+      button:
+        text: Explore my research
+        url: /research/
     design:
       columns: '1'
-  - block: collection
+      css_class: homepage-section-copy
+  - block: semantic-collection
     id: papers
     content:
       title: Featured Publications
+      button:
+        text: View all publications
+        url: /publications/
       filters:
         folders:
           - publications
@@ -61,37 +82,23 @@ sections:
     design:
       view: article-grid
       columns: 2
-  - block: markdown
-    content:
-      title: Recent Publications
-      subtitle: ''
-      text: |-
-        For a fuller list of publications and recent manuscripts, see my Google Scholar profile linked above.
-
-        Han H, Ma X, Tang S, Zhao K, **Criado-Hidalgo E**, Truong HD, Yoo J, Fezzi C, Zhang J, Chen G, Hays C, Reyes Segura RJ, Jin Z, Liu A, Shapiro MG, Greer JR, Zhou Q, Gao W (2026). Programmable multigas cancer therapy using ultrasound-propelled microrobots. *Nature Communications*. In revision.
-
-        Luo K, Ma Y, Li HR, Li H, Swift MB, Dalleska NF, Farooq AS, **Criado-Hidalgo E**, Liu A, Shapiro MG, Elowitz MB (2026). In vivo spatial coordination with synthetic paracrine signaling. Submitted to *Nature Chemical Biology*.
-
-        Lee J, Liu A, **Criado-Hidalgo E**, Ling B, You MY, Jin Z, Shapiro MG (2026). Engineering monocytes as ultrasound reporter cells for cancer detection. In preparation.
-
-        Shivaei S, Cheung K, Yadav A, Hurvitz I, Lee S, Revilla J, Rabut C, **Criado-Hidalgo E**, Zhang R, Shapiro MG (2026). Ultrasound imaging of in situ transcriptional activity in opaque tissue. *Nature Methods*. In revision.
-
-        Vasallo R, Ling B, **Criado-Hidalgo E**, Robinson N, Schrunk E, Liu A, Daghlian G, Li HR, Swift MB, Mannar D, Malounda D, Lack N, Goldenberg L, Black PC, Cox ME, Salcudean SE, Shapiro MG (2026). [A modular method for rapidly prototyping targeted gas vesicle protein nanoparticles](https://pubs.acs.org/doi/full/10.1021/acs.bioconjchem.5c00387). *Bioconjugate Chemistry* 37 (2), 225-232.
-    design:
-      columns: '1'
-      css_class: homepage-publications
-  - block: markdown
+      css_class: homepage-featured-publications
+  - block: semantic-markdown
     id: news
     content:
       title: Writing & Updates
       subtitle: ''
       text: |-
-        I plan to use the blog for occasional writing on research, engineering in medicine, and related scientific ideas.
+        I write about research, engineering in medicine, scientific computing, and the tools that support multidisciplinary work.
 
-        For now, the most complete view of my work is through the [Research](/research/), [Publications](/publications/), and [Experience](/experience/) pages.
+        Recent posts explore ultrasound-enabled technologies, mechanobiology, data science, and AI-assisted research workflows.
+      button:
+        text: Read the blog
+        url: /blog/
     design:
       columns: '1'
-  - block: markdown
+      css_class: homepage-section-copy
+  - block: semantic-markdown
     id: contact
     content:
       title: Contact

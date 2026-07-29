@@ -1,0 +1,9 @@
+site: public
+glob: "{index.html,about/index.html,experience/index.html,research/index.html,publications/index.html,projects/index.html,projects/*/index.html,blog/*/index.html}"
+exclude_selectors:
+  - ".page-header"
+  - ".page-footer"
+  - ".hb-sidebar-container"
+  - ".hb-toc"
+  - ".article-footer"
+  - ".no-prose"

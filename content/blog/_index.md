@@ -2,12 +2,13 @@
 title: Blog
 date: 2026-04-26
 type: landing
+summary: Writing by Ernesto Criado-Hidalgo on research, engineering in medicine, ultrasound, data science, and AI-assisted scientific workflows.
 
 design:
   spacing: '5rem'
 
 sections:
-  - block: collection
+  - block: semantic-collection
     content:
       title: Blog
       text: Notes and occasional writing on research, engineering in medicine, knowledge systems, and the tools that support multidisciplinary work.
@@ -27,4 +28,5 @@ sections:
       css_class: blog-landing
       view: article-grid
       columns: 2
+      heading_level: 1
 ---

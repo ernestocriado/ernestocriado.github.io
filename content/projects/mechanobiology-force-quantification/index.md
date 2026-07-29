@@ -8,11 +8,17 @@ tags:
   - Biomaterials
 ---
 
-My doctoral research focused on quantifying cell-generated forces and understanding how mechanical interactions shape collective cellular behavior. This work integrated microscopy, custom hydrogels, cellular engineering, and computational analysis to measure forces in both two-dimensional monolayers and three-dimensional microenvironments.
+## Engineering question
+
+How can we directly measure the forces cells generate and transmit in complex, physiologically relevant environments?
+
+## My contribution
+
+My doctoral research integrated microscopy, custom hydrogels, cellular engineering, and computational analysis to quantify forces in both two-dimensional monolayers and three-dimensional microenvironments. I developed experimental and computational methods for measuring cellular traction and collective mechanical behavior.
 
 The same mechanobiology perspective also informed collaborative work on immune-cell migration and host-pathogen interactions.
 
-Related publications:
+## Related work
 
 - [Tunable photoinitiated hydrogel microspheres for direct quantification of cell-generated forces in complex three-dimensional environments](/publications/hydrogel-microspheres-force-quantification/)
 - [Elucidating the biomechanics of leukocyte transendothelial migration by quantitative imaging](/publications/leukocyte-transendothelial-migration/)

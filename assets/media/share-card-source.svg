@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">Ernesto Criado-Hidalgo</title>
+  <desc id="description">Engineering non-invasive tools for biology and medicine.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="0.55" stop-color="#102a27"/>
+      <stop offset="1" stop-color="#3b2415"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.18" cy="0.85" r="0.9">
+      <stop offset="0" stop-color="#4338ca" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#4338ca" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" rx="36" fill="url(#background)"/>
+  <rect width="1200" height="630" rx="36" fill="url(#glow)"/>
+  <circle cx="130" cy="128" r="58" fill="#182a35" stroke="#5eead4" stroke-opacity="0.38" stroke-width="2"/>
+  <text x="130" y="140" text-anchor="middle" fill="#f8fafc" font-family="Helvetica, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="1">ECH</text>
+  <text x="220" y="119" fill="#94a3b8" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="600" letter-spacing="2">ENGINEERING IN MEDICINE</text>
+  <text x="88" y="292" fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="62" font-weight="750">Ernesto Criado-Hidalgo</text>
+  <text x="88" y="382" fill="#dbeafe" font-family="Helvetica, Arial, sans-serif" font-size="38" font-weight="600">Translating engineering into non-invasive tools</text>
+  <text x="88" y="434" fill="#dbeafe" font-family="Helvetica, Arial, sans-serif" font-size="38" font-weight="600">for biology and medicine</text>
+  <line x1="88" y1="500" x2="1112" y2="500" stroke="#ffffff" stroke-opacity="0.18"/>
+  <text x="88" y="552" fill="#a5b4fc" font-family="Helvetica, Arial, sans-serif" font-size="25" font-weight="600">California Institute of Technology</text>
+  <text x="1112" y="552" text-anchor="end" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="22">ernestocriado.github.io</text>
+</svg>
