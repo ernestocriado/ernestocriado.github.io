@@ -18,6 +18,15 @@
   </div>
 {{ end }}
 
-{{ $content := merge $block.content (dict "title" "" "text" "") }}
+{{ $content := merge $block.content (dict "title" "" "text" "" "button" nil) }}
 {{ $clean_block := merge $block (dict "content" $content) }}
 {{ partial "hbx/blocks/collection/block.html" (dict "wcPage" $page "wcBlock" $clean_block) }}
+
+{{ with $block.content.button }}
+  <div class="collection-section-link">
+    <a class="section-link" href="{{ .url }}">
+      {{ .text }}
+      <span aria-hidden="true">&rarr;</span>
+    </a>
+  </div>
+{{ end }}

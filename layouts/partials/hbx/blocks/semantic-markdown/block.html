@@ -6,13 +6,42 @@
 {{ $heading_level := $block.design.heading_level | default 2 }}
 
 <div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6">
-  {{ if eq $heading_level 1 }}
-    <h1 class="section-heading mb-6 text-3xl font-bold text-gray-900 dark:text-white">{{ $title }}</h1>
-  {{ else }}
-    <h2 class="section-heading mb-6 text-2xl font-bold text-gray-900 dark:text-white">{{ $title }}</h2>
+  {{ with $title }}
+    {{ if eq $heading_level 1 }}
+      <h1 class="section-heading mb-6 text-3xl font-bold text-gray-900 dark:text-white">{{ . }}</h1>
+    {{ else }}
+      <h2 class="section-heading mb-6 text-2xl font-bold text-gray-900 dark:text-white">{{ . }}</h2>
+    {{ end }}
   {{ end }}
 
   {{ with $text }}
     <div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose">{{ . }}</div>
+  {{ end }}
+
+  {{ with $block.content.buttons }}
+    <div class="profile-link-buttons">
+      {{ range . }}
+        {{ $scheme := (urls.Parse .url).Scheme }}
+        {{ $external := in (slice "http" "https") $scheme }}
+        {{ $style := .style | default "primary" }}
+        <a
+          class="profile-link-button {{ if eq $style "secondary" }}profile-link-button-secondary{{ else }}profile-link-button-primary{{ end }}"
+          href="{{ .url | safeURL }}"
+          {{ if $external }}target="_blank" rel="noopener"{{ end }}
+        >
+          {{ with .icon }}
+            {{ partial "functions/get_icon" (dict "name" . "attributes" "class=\"w-5 h-5\"") }}
+          {{ end }}
+          <span>{{ .text }}</span>
+        </a>
+      {{ end }}
+    </div>
+  {{ end }}
+
+  {{ with $block.content.button }}
+    <a class="section-link" href="{{ .url }}">
+      {{ .text }}
+      <span aria-hidden="true">&rarr;</span>
+    </a>
   {{ end }}
 </div>

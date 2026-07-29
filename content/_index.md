@@ -2,7 +2,7 @@
 # Leave the homepage title empty to use the site title
 title: ''
 date: 2026-07-26
-lastmod: 2026-07-26
+lastmod: 2026-07-29
 type: landing
 summary: Ernesto Criado-Hidalgo builds non-invasive tools for imaging, stimulation, and measurement at the intersection of engineering, biology, and medicine.
 
@@ -14,6 +14,15 @@ design:
   spacing: '6rem'
 
 sections:
+  - block: semantic-markdown
+    content:
+      text: |-
+        Website content is currently being updated.
+    design:
+      columns: '1'
+      css_class: site-status-notice
+      spacing:
+        padding: ['0.65rem', '0', '0.65rem', '0']
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
@@ -52,13 +61,20 @@ sections:
       text: |-
         My research sits at the intersection of engineering, biology, and medicine, with a focus on non-invasive tools for imaging, stimulation, and measurement.
 
-        Current themes include biomolecular ultrasound, acoustic reporter genes, ultrasound neuromodulation, mechanobiology, and cerebrospinal fluid mechanics. The [Research](/research/) page provides a fuller overview of these directions.
+        Current themes include biomolecular ultrasound, acoustic reporter genes, ultrasound neuromodulation, mechanobiology, and cerebrospinal fluid mechanics.
+      button:
+        text: Explore my research
+        url: /research/
     design:
       columns: '1'
+      css_class: homepage-section-copy
   - block: semantic-collection
     id: papers
     content:
       title: Featured Publications
+      button:
+        text: View all publications
+        url: /publications/
       filters:
         folders:
           - publications
@@ -66,23 +82,7 @@ sections:
     design:
       view: article-grid
       columns: 2
-  - block: semantic-markdown
-    content:
-      title: Recent Publications
-      subtitle: ''
-      text: |-
-        For a fuller list of publications and recent manuscripts, see my Google Scholar profile linked above.
-
-        Han H, Ma X, Tang S, Zhao K, **Criado-Hidalgo E**, Truong HD, Yoo J, Fezzi C, Zhang J, Chen G, Hays C, Reyes Segura RJ, Jin Z, Liu A, Shapiro MG, Greer JR, Zhou Q, Gao W (2026). Programmable multigas cancer therapy using ultrasound-propelled microrobots. *Nature Communications*. In revision.
-
-        Luo K, Ma Y, Li HR, Li H, Swift MB, Dalleska NF, Farooq AS, **Criado-Hidalgo E**, Liu A, Shapiro MG, Elowitz MB (2026). [In vivo spatial coordination with synthetic paracrine signaling](https://doi.org/10.64898/2026.06.26.734902). Submitted to *Nature Chemical Biology*.
-
-        Lee J, Liu A, **Criado-Hidalgo E**, Ling B, You MY, Jin Z, Shapiro MG (2026). Engineering monocytes as ultrasound reporter cells for cancer detection. In preparation.
-
-        [View all publications](/publications/)
-    design:
-      columns: '1'
-      css_class: homepage-publications
+      css_class: homepage-featured-publications
   - block: semantic-markdown
     id: news
     content:
@@ -91,9 +91,13 @@ sections:
       text: |-
         I write about research, engineering in medicine, scientific computing, and the tools that support multidisciplinary work.
 
-        Visit the [Blog](/blog/) for recent posts on ultrasound-enabled technologies, mechanobiology, data science, and AI-assisted research workflows.
+        Recent posts explore ultrasound-enabled technologies, mechanobiology, data science, and AI-assisted research workflows.
+      button:
+        text: Read the blog
+        url: /blog/
     design:
       columns: '1'
+      css_class: homepage-section-copy
   - block: semantic-markdown
     id: contact
     content:

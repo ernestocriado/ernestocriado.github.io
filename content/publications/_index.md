@@ -1,6 +1,7 @@
 ---
 title: Publications
 date: 2026-04-26
+lastmod: 2026-07-29
 type: landing
 summary: Featured papers and a complete publication list spanning ultrasound, mechanobiology, neurotechnology, fluid mechanics, and engineering in medicine.
 
@@ -13,8 +14,18 @@ sections:
       title: Publications
       text: |-
         Representative papers and a complete chronological record of my work across engineering, biology, and medicine.
+      buttons:
+        - text: Google Scholar
+          url: https://scholar.google.com/citations?hl=en&user=8Qtoph8AAAAJ&view_op=list_works&sortby=pubdate
+          icon: academicons/google-scholar
+          style: primary
+        - text: ORCID
+          url: https://orcid.org/0000-0001-9086-9129
+          icon: academicons/orcid
+          style: secondary
     design:
       columns: '1'
+      css_class: publications-intro
       heading_level: 1
       spacing:
         padding: ['4rem', '0', '1rem', '0']
